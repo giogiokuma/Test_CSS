@@ -6,45 +6,39 @@
 <style>
 /* 
 001frosted-glass
-002Folded_corner_effect */
+002Folded_corner_effect 
+003Inserting ラインブレイク
+004Adjusting タブ
+005Letterpress*/
 
-.div1 {
-  min-height:100vh;
-  box-sizing:border-box;
-  padding-top:calc(50vh - 6em);
-  font:150%/1.6 Palatino, self;
-  
+
+body {
+    font: 250%/1.6 Baskerville, Palatino, serif;
 }
-.div1 {
-  background:url("images/forest.jpg");
-  background-size:cover;
+
+p {
+    padding:.8em 1em;
+    background: hsl(210, 13%, 60%);
+    color:hsl(210, 13%, 30%);
+    text-shadow: 0 1px 1px hsla(0, 0%, 100%, .8);
 }
-main {
-  position:relative;
-  margin:0 auto;
-  padding:1em;
-  max-width:23em;
-  box-shadow: 0 0 0 1px hsla(0,0%,100%,.3) inset,
-              0 .5em 1em rgba(0, 0, 0, 0.6);
-  text-shadow: 0 1px 1px hsla(0,0%,100%,.3);
+
+p + p {
+    background: hsl(210, 13% , 30%);
+    color:hsl(210, 13%,  60%);
+    text-shadow: 0 -1px 1px black;
 }
-main::before {
-  content:'';
-  position:absolute;
-  top:0; right: 0; bottom: 0; left:0;
-  margin:-30px;
-  z-index:-1;
-  -webkit-filter:blur(20px);
-  filter:blur(20px);
-}
+
+
 
 </style>
 </head>
 <body>
-  <div class="div1">
-<main>
-  aaaaa
-</main>
-</div>
+
+<p>“The only way to get rid of a temp­ta­tion is to yield to it.”</p>
+<p>
+    “The only way to get rid of a temp­ta­tion is to yield to it.”
+</p>
+
 </body>
 </html>
