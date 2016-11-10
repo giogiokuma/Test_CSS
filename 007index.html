@@ -7,45 +7,38 @@
 /* 
 001frosted-glass
 002Folded_corner_effect 
-003Inserting ラインブレイク*/
+003Inserting ラインブレイク
+004Letterpress
+005Adjusting タブ
+006Grow
+007Text on a circle
+*/
 
-.div1 {
-  min-height:100vh;
-  box-sizing:border-box;
-  padding-top:calc(50vh - 6em);
-  font:150%/1.6 Palatino, self;
-  
+body {
+    font: bold 120% Helvetica, sans-serif;
 }
-.div1 {
-  background:url("images/forest.jpg");
-  background-size:cover;
+
+.circular {
+    width: 30em;
+    height: 30em;
+    margin: 4em auto 0;
 }
-main {
-  position:relative;
-  margin:0 auto;
-  padding:1em;
-  max-width:23em;
-  box-shadow: 0 0 0 1px hsla(0,0%,100%,.3) inset,
-              0 .5em 1em rgba(0, 0, 0, 0.6);
-  text-shadow: 0 1px 1px hsla(0,0%,100%,.3);
+
+.circular svg {
+    display: block;
+    overflow: visible;
+    transition: 10s linear transform;
 }
-main::before {
-  content:'';
-  position:absolute;
-  top:0; right: 0; bottom: 0; left:0;
-  margin:-30px;
-  z-index:-1;
-  -webkit-filter:blur(20px);
-  filter:blur(20px);
-}
+
+.circular svg:hover { transform: rotate(-2turn); }
+
+.circular text { fill: currentColor }
+.circular path { fill: none; }
+
 
 </style>
 </head>
 <body>
-  <div class="div1">
-<main>
-  aaaaa
-</main>
-</div>
+<div class="circular">reasonal transfor</div>
 </body>
 </html>
