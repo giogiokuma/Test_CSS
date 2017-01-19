@@ -1,0 +1,81 @@
+/*//////
+flex basis 
+//////*/
+/* line 10, ../scss/style007.scss */
+.media {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+/* line 19, ../scss/style007.scss */
+.media-content {
+  padding: 20px;
+}
+
+/* line 23, ../scss/style007.scss */
+.media-img-container {
+  padding: 20px 20px 0 20px;
+}
+
+/* line 27, ../scss/style007.scss */
+.media-img-item {
+  width: 100%;
+}
+
+/* line 31, ../scss/style007.scss */
+.media-meta,
+.media-title,
+.media-description {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 38, ../scss/style007.scss */
+.media-description {
+  margin-top: 4px;
+}
+
+/* line 42, ../scss/style007.scss */
+.media-meta {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* line 48, ../scss/style007.scss */
+.media-meta-item {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 53, ../scss/style007.scss */
+.media-meta-item + .media-meta-item {
+  margin-left: 20px;
+}
+
+/* line 57, ../scss/style007.scss */
+.media-meta-label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 500px) {
+  /* line 64, ../scss/style007.scss */
+  .media {
+    flex-wrap: nowrap;
+  }
+
+  /* line 68, ../scss/style007.scss */
+  .media-img {
+    flex-basis: 40%;
+  }
+
+  /* line 72, ../scss/style007.scss */
+  .media-content {
+    flex-basis: 60%;
+  }
+}

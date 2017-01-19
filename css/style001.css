@@ -1,0 +1,77 @@
+/* line 8, ../scss/style001.scss */
+.media {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+/* line 16, ../scss/style001.scss */
+.media-content {
+  padding: 20px;
+}
+
+/* line 19, ../scss/style001.scss */
+.media-img-container {
+  padding: 20px 20px 0 20px;
+}
+
+/* line 23, ../scss/style001.scss */
+.media-img-item {
+  width: 100%;
+}
+
+/* line 27, ../scss/style001.scss */
+.media-meta,
+.media-title,
+.media-description {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 34, ../scss/style001.scss */
+.media-description {
+  margin-top: 4px;
+}
+
+/* line 38, ../scss/style001.scss */
+.media-meta {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* line 43, ../scss/style001.scss */
+.media-meta-item {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 47, ../scss/style001.scss */
+.media-meta-label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 500px) {
+  /* line 53, ../scss/style001.scss */
+  .media {
+    flex-wrap: nowrap;
+  }
+
+  /* line 57, ../scss/style001.scss */
+  .media-img-container {
+    padding: 0;
+  }
+
+  /* line 61, ../scss/style001.scss */
+  .media-img-item {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 67, ../scss/style001.scss */
+  .media-img-item {
+    width: 300px;
+  }
+}

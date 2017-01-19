@@ -1,0 +1,24 @@
+/* line 7, ../scss/style.scss */
+.grid {
+  display: flex;
+  margin: 20px 0;
+}
+
+/* line 12, ../scss/style.scss */
+.grid-wrap {
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 500px) {
+  /* line 17, ../scss/style.scss */
+  .grid-wrap {
+    flex-wrap: nowrap;
+  }
+}
+/* line 22, ../scss/style.scss */
+.demo .grid-item {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  text-align: center;
+}
