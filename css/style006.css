@@ -1,26 +1,27 @@
+/* Table of Content */
 /*//////
-1 form
+form
 //////*/
-/* line 11, ../scss/style006.scss */
+/* line 14, ../scss/style006.scss */
 form {
   max-width: 700px;
   padding: 0 20px 20px 20px;
 }
 
-/* line 16, ../scss/style006.scss */
+/* line 19, ../scss/style006.scss */
 input,
 label {
   display: block;
   width: 100%;
 }
 
-/* line 22, ../scss/style006.scss */
+/* line 25, ../scss/style006.scss */
 label {
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-/* line 27, ../scss/style006.scss */
+/* line 30, ../scss/style006.scss */
 input,
 select {
   background: #f9f9f9;
@@ -31,44 +32,73 @@ select {
   padding: 8px;
 }
 
-/* line 37, ../scss/style006.scss */
+/* line 40, ../scss/style006.scss */
 .select-state {
   width: 100%;
 }
 
-/* line 41, ../scss/style006.scss */
+/* line 44, ../scss/style006.scss */
 .fieldset {
   margin-top: 20px;
 }
 
-/* line 45, ../scss/style006.scss */
+/* line 48, ../scss/style006.scss */
 .fieldsets-group {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 50, ../scss/style006.scss */
+/* line 53, ../scss/style006.scss */
+.fieldset-1of2 {
+  flex-basis: 50%;
+}
+
+/* line 57, ../scss/style006.scss */
 .fieldset-1of2 + .fieldset-1of2 {
   margin-left: 30px;
 }
 
-/* line 54, ../scss/style006.scss */
+/* line 61, ../scss/style006.scss */
+.fieldsets-location {
+  flex-wrap: wrap;
+}
+
+/* line 65, ../scss/style006.scss */
+.fieldset-city {
+  flex-basis: 100%;
+  flex-shrink: 0;
+}
+
+/* line 70, ../scss/style006.scss */
 .fieldset-state {
+  flex-basis: 50%;
   padding-right: 15px;
 }
 
-/* line 58, ../scss/style006.scss */
+/* line 75, ../scss/style006.scss */
 .fieldset-zip {
+  flex-basis: 50%;
   padding-left: 15px;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 64, ../scss/style006.scss */
+  /* line 82, ../scss/style006.scss */
+  .fieldset-city {
+    flex-basis: 50%;
+  }
+
+  /* line 86, ../scss/style006.scss */
   .fieldset-state {
+    flex-basis: 35%;
     padding-left: 30px;
   }
+
+  /* line 91, ../scss/style006.scss */
+  .fieldset-zip {
+    flex-basis: 15%;
+  }
 }
-/* line 70, ../scss/style006.scss */
+/* line 97, ../scss/style006.scss */
 .signIn-container {
   align-items: center;
   background: #fcfaff;
@@ -77,7 +107,7 @@ select {
   min-height: 600px;
 }
 
-/* line 78, ../scss/style006.scss */
+/* line 105, ../scss/style006.scss */
 .form-signIn {
   background: #ffffff;
   border: 1px solid #e5e5e5;
@@ -86,33 +116,26 @@ select {
   padding: 10px 30px 30px 30px;
 }
 
-/* line 86, ../scss/style006.scss */
+/* line 113, ../scss/style006.scss */
 .btn-signIn {
   margin-top: 24px;
 }
 
-/* line 90, ../scss/style006.scss */
-.fieldset-signIn {
-  display: flex;
-}
-
-/* line 95, ../scss/style006.scss */
+/* line 117, ../scss/style006.scss */
 .fieldset-icon {
-  display: flex;
   border: 1px solid #e5e5e5;
   border-right: 0;
   border-radius: 8px 0 0 8px;
-  align-items: center;
   padding: 0 8px;
 }
 
-/* line 104, ../scss/style006.scss */
+/* line 124, ../scss/style006.scss */
 .fieldset-signIn input {
   border-radius: 0 8px 8px 0;
 }
 
 @media screen and (min-width: 420px) {
-  /* line 109, ../scss/style006.scss */
+  /* line 129, ../scss/style006.scss */
   .fieldset-signIn {
     min-width: 280px;
   }
