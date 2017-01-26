@@ -1,4 +1,4 @@
-/* line 8, ../scss/style001.scss */
+/* line 7, ../scss/style001.scss */
 .media {
   background: #fff;
   border: 1px solid #e5e5e5;
@@ -7,7 +7,7 @@
   max-width: 600px;
 }
 
-/* line 16, ../scss/style001.scss */
+/* line 15, ../scss/style001.scss */
 .media-content {
   padding: 20px;
 }
@@ -47,7 +47,7 @@
   margin: 0;
 }
 
-/* line 47, ../scss/style001.scss */
+/* line 48, ../scss/style001.scss */
 .media-meta-label {
   font-size: 12px;
   text-transform: uppercase;

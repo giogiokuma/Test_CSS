@@ -1,0 +1,89 @@
+/* Table of Content */
+/* line 7, ../scss/style011.scss */
+.media {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+/* line 16, ../scss/style011.scss */
+.media--reverse {
+  flex-flow: column-reverse wrap;
+}
+
+/* line 20, ../scss/style011.scss */
+.media-content {
+  padding: 20px;
+}
+
+/* line 24, ../scss/style011.scss */
+.media-img-container {
+  padding: 20px 20px 0 20px;
+}
+
+/* line 28, ../scss/style011.scss */
+.media-img-item {
+  width: 100%;
+}
+
+/* line 32, ../scss/style011.scss */
+.media-meta,
+.media-title,
+.media-description {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 39, ../scss/style011.scss */
+.media-description {
+  margin-top: 4px;
+}
+
+/* line 43, ../scss/style011.scss */
+.media-meta {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* line 49, ../scss/style011.scss */
+.media-meta-item {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 54, ../scss/style011.scss */
+.media-meta-item + .media-meta-item {
+  margin-left: 20px;
+}
+
+/* line 58, ../scss/style011.scss */
+.media-meta-label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 500px) {
+  /* line 65, ../scss/style011.scss */
+  .media {
+    flex-wrap: nowrap;
+  }
+
+  /* line 69, ../scss/style011.scss */
+  .media--reverse {
+    flex-flow: row wrap;
+  }
+
+  /* line 73, ../scss/style011.scss */
+  .media-img {
+    flex-basis: 40%;
+  }
+
+  /* line 77, ../scss/style011.scss */
+  .media-content {
+    flex-basis: 60%;
+  }
+}

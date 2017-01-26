@@ -1,4 +1,4 @@
-/* line 5, ../scss/style005.scss */
+/* line 6, ../scss/style005.scss */
 .media {
   background: #ffffff;
   border: 1px solid #e5e5e5;
@@ -7,27 +7,27 @@
   max-width: 600px;
 }
 
-/* line 13, ../scss/style005.scss */
+/* line 14, ../scss/style005.scss */
 .media + .media {
   margin-top: 20px;
 }
 
-/* line 17, ../scss/style005.scss */
+/* line 18, ../scss/style005.scss */
 .media-content {
   padding: 20px;
 }
 
-/* line 21, ../scss/style005.scss */
+/* line 22, ../scss/style005.scss */
 .media-img-container {
   padding: 20px 20px 0 20px;
 }
 
-/* line 25, ../scss/style005.scss */
+/* line 26, ../scss/style005.scss */
 .media-img-item {
   width: 100%;
 }
 
-/* line 29, ../scss/style005.scss */
+/* line 30, ../scss/style005.scss */
 .media-meta,
 .media-title,
 .media-description {
@@ -35,58 +35,58 @@
   padding: 0;
 }
 
-/* line 36, ../scss/style005.scss */
+/* line 37, ../scss/style005.scss */
 .media-description {
   margin-top: 4px;
 }
 
-/* line 40, ../scss/style005.scss */
+/* line 41, ../scss/style005.scss */
 .media-meta {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
 
-/* line 46, ../scss/style005.scss */
+/* line 47, ../scss/style005.scss */
 .media-meta-item {
   list-style: none;
   margin: 0;
 }
 
-/* line 51, ../scss/style005.scss */
+/* line 52, ../scss/style005.scss */
 .media-meta-item + .media-meta-item {
   margin-left: 20px;
 }
 
-/* line 55, ../scss/style005.scss */
+/* line 56, ../scss/style005.scss */
 .media-meta-label {
   font-size: 12px;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 500px) {
-  /* line 62, ../scss/style005.scss */
+  /* line 63, ../scss/style005.scss */
   .media {
     flex-wrap: nowrap;
   }
 
-  /* line 66, ../scss/style005.scss */
+  /* line 67, ../scss/style005.scss */
   .media:nth-child(even) .media-img {
     order: 1;
   }
 
-  /* line 70, ../scss/style005.scss */
+  /* line 71, ../scss/style005.scss */
   .media-img-container {
     padding: 0;
   }
 
-  /* line 74, ../scss/style005.scss */
+  /* line 75, ../scss/style005.scss */
   .media-img-item {
     width: 200px;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 82, ../scss/style005.scss */
+  /* line 83, ../scss/style005.scss */
   .media-img-item {
     width: 300px;
   }

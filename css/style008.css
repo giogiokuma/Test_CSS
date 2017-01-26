@@ -1,0 +1,28 @@
+/* Table of Content */
+/* line 10, ../scss/style008.scss */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 15, ../scss/style008.scss */
+.product {
+  padding: 10px;
+}
+
+/* line 19, ../scss/style008.scss */
+.product-title {
+  margin: 5px 0 0 0;
+}
+
+/* line 23, ../scss/style008.scss */
+.product-price {
+  margin: 0;
+}
+
+/* line 27, ../scss/style008.scss */
+.product--featured {
+  background: purple;
+  color: #ffffff;
+  order: -1;
+}

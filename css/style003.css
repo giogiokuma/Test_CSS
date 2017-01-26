@@ -1,4 +1,4 @@
-/* line 10, ../scss/style003.scss */
+/* line 8, ../scss/style003.scss */
 .promo {
   border: 1px solid #e5e5e5;
   display: inline-flex;
@@ -9,27 +9,27 @@
   vertical-align: top;
 }
 
-/* line 19, ../scss/style003.scss */
+/* line 17, ../scss/style003.scss */
 .promo--start {
   justify-content: start;
 }
 
-/* line 22, ../scss/style003.scss */
+/* line 20, ../scss/style003.scss */
 .promo--center {
   justify-content: center;
 }
 
-/* line 26, ../scss/style003.scss */
+/* line 24, ../scss/style003.scss */
 .promo--end {
   justify-content: flex-end;
 }
 
-/* line 30, ../scss/style003.scss */
+/* line 28, ../scss/style003.scss */
 .promo-title {
   margin: 0;
 }
 
-/* line 34, ../scss/style003.scss */
+/* line 32, ../scss/style003.scss */
 .promo-description {
   margin-top: 8px;
 }

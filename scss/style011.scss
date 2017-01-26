@@ -1,9 +1,11 @@
-
 @import "compass/css3";
 
 @import 'bourbon/bourbon'; 
 
+/* Table of Content */
+
 .media {
+  align-items: center;
   background: #ffffff;
   border: 1px solid #e5e5e5;
   display: flex;
@@ -11,9 +13,9 @@
   max-width: 600px;
 }
 
-.media + .media {
-  margin-top: 20px;
-}
+.media--reverse { 
+    flex-flow:column-reverse wrap;
+  }
 
 .media-content {
   padding: 20px;
@@ -64,24 +66,19 @@
     flex-wrap: nowrap;
   }
 
-  .media:nth-child(even) .media-img {  
-    order:1;
+  .media--reverse {
+    flex-flow: row wrap;
   }
 
-  .media-img-container {
-    padding: 0;
+  .media-img {
+    flex-basis: 40%;
   }
 
-  .media-img-item {
-    width: 200px;
-  }
-
-}
-
-@media screen and (min-width: 600px) {
-
-  .media-img-item {
-    width: 300px;
+  .media-content {
+    flex-basis: 60%;
   }
 
 }
+
+
+
