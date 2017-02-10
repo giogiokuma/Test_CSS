@@ -1,5 +1,6 @@
 a. 005flexbox.html  開発
 
+http://play.csssecrets.io/
 
 
 css secret 
@@ -11,4 +12,5 @@ e. 014index.html > fluid-fixed ヘッダー
 f. 015index.html > sticky-footerfiexed クリックするとテキスト消えてフッターは上にシフトされる
 g. 016index.html > bounce @keyframes でCSSアニメーション定義
 h. 017index.html > elastic 左からインプットbox 表示　クリックで　吹き出し
-
+i. 018index.html > elastic color ロードするときグラデーションになる
+j. 019index.html > 
