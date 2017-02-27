@@ -13,4 +13,9 @@ f. 015index.html > sticky-footerfiexed クリックするとテキスト消え�
 g. 016index.html > bounce @keyframes でCSSアニメーション定義
 h. 017index.html > elastic 左からインプットbox 表示　クリックで　吹き出し
 i. 018index.html > elastic color ロードするときグラデーションになる
-j. 019index.html > 
+j. 019index.html > loading.png をアニメーションを使って読み込み　
+k. 020index.html > Blinking で　強調アニメーション
+l. 021index.html > css @keyframe アニメーションで１文字ずつ表示
+m. 022index.html > hover で @keyframe アニメーションを横にずらす
+n. 
+
